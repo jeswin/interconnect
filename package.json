@@ -1,5 +1,5 @@
 {
-  "name": "server-template-nodejs",
+  "name": "interconnect",
   "private": true,
   "version": "0.0.1",
   "author": "Jeswin Kumar<jeswinpk@agilehead.com>",
@@ -11,7 +11,7 @@
     "test": "./build.sh && mocha --exit dist/test/test.js"
   },
   "bin": {
-    "server-template-nodejs": "dist/index.js"
+    "interconnect": "dist/index.js"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -34,7 +34,7 @@ function run() {
 
   const port = parseInt(process.env.PORT);
 
-  describe("server-template-nodejs", () => {
+  describe("interconnect", () => {
     before(async function resetDb() {
       const pool = new Pool({ ...dbConfig, database: "template1" });
       
