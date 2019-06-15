@@ -1,3 +1,3 @@
 # Interconnect
 
-Planet-scale distributed database.
+Planet-scale personal-data log shipping.
