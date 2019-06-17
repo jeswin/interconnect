@@ -1,3 +1,3 @@
 # Interconnect
 
-Planet-scale Personal Database
+Planet-scale personal-data log shipping. Experimental.
