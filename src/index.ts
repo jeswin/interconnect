@@ -8,6 +8,8 @@ import * as db from "./db";
 import * as config from "./config";
 import { IAppConfig } from "./types";
 import { createUser } from "./api/users";
+import create from "./api/crud/create";
+import read from "./api/crud/read";
 
 const grant = require("grant-koa");
 
@@ -22,8 +24,8 @@ export async function init(configDir: string) {
   // Set up routes
   const router = new Router();
 
-  /* Create a new user */
-  router.post(`/users`, createUser);
+  router.post(`/:collection`, create);
+  router.get(`/:collection`, read);
 
   // Start app
   var app = new Koa();
